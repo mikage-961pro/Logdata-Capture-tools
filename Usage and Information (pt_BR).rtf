@@ -1,0 +1,345 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 LucidaGrande;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\f0\b\fs24 \cf2 \expnd0\expndtw0\kerning0
+Como usar:\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\b0 \cf2 1. Clique duas vezes no aplicativo Capture\'a0Data.\
+2. Selecione as op\'e7\'f5es desejadas (descritas abaixo neste documento).\
+3. Clique no bot\'e3o Start.\
+4. \kerning1\expnd-1\expndtw-3
+Insira a senha de usu\'e1rio quando solicitado. Se for solicitado uma senha e um nome \kerning1\expnd0\expndtw2
+de usu\'e1rio, insira um nome de usu\'e1rio administrador e uma senha. Voc\'ea poder\'e1 \uc0\u8232 ser solicitado a inserir a senha do usu\'e1rio administrador v\'e1rias vezes antes de o Capture\'a0Data ser conclu\'eddo.\expnd0\expndtw0\kerning0
+\
+5. Insira uma descri\'e7\'e3o do problema com a data e a hora que o problema ocorreu pela \'faltima vez quando for solicitado. Sem a data e hora, ser\'e1 mais dif\'edcil para o AppleCare identificar o problema.\'a0\
+\
+Assim que o aplicativo estiver conclu\'eddo, as informa\'e7\'f5es capturadas ser\'e3o salvas \uc0\u8232 em um arquivo ou diret\'f3rio chamado "ACCD_NomedoComputador_x" no /var/tmp/CaptureData, \u8232 \kerning1\expnd0\expndtw2
+no qual\'a0NomedoComputador\'a0\'e9 o nome do computador, conforme mostrado nas \expnd0\expndtw0\kerning0
+Prefer\'eancias de Compartilhamento, e x \'e9 um n\'famero.\'a0\
+\
+Para abrir este local, clique no bot\'e3o [Abrir] quando conclu\'eddo ou use o Finder \uc0\u8232 (Ir > Ir para a Pasta > /var/tmp/CaptureData)\
+\
+Nota: quando o aplicativo estiver coletando dados, poder\'e1 parecer que ele n\'e3o responde. N\'e3o encerre o aplicativo. Voc\'ea dever\'e1 aguardar at\'e9 que o aplicativo \uc0\u8232 produza uma mensagem de erro ou at\'e9 que seja conclu\'eddo.\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\b \cf2 Saiba mais:\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\b0 \cf2 O Capture\'a0Data tem diversas op\'e7\'f5es dispon\'edveis para sele\'e7\'e3o dependendo do problema. Esta \'e9 uma breve vis\'e3o geral das op\'e7\'f5es dispon\'edveis no Capture\'a0Data.\
+\
+Estas op\'e7\'f5es coletam registros de problemas que j\'e1 ocorreram\
+	
+\f1 \uc0\u9642 
+\f0 	Default information:\'a0essa op\'e7\'e3o est\'e1 ativada por padr\'e3o e n\'e3o pode \uc0\u8232 ser desativada.\
+	
+\f1 \uc0\u9642 
+\f0 	\kerning1\expnd0\expndtw2
+macOS Mail Information\expnd0\expndtw0\kerning0
+:\kerning1\expnd0\expndtw2
+\'a0use essa op\'e7\'e3o ao solucionar problemas \expnd0\expndtw0\kerning0
+\uc0\u8232 do Mail.\'a0Isso criar\'e1 uma pasta chamada "Mail.app-Info" que cont\'e9m mais detalhes sobre o aplicativo Mail, como o arquivo de prefer\'eancia com.apple.mail.plist.\
+	
+\f1 \uc0\u9642 
+\f0 	Logs from Previous System Folder: use essa op\'e7\'e3o ap\'f3s executar um arquivamento e fa\'e7a a instala\'e7\'e3o para coletar os registros da pasta sistema anterior. (Essa op\'e7\'e3o estar\'e1 dispon\'edvel somente se houver uma pasta Sistema Anterior.)\
+	
+\f1 \uc0\u9642 
+\f0 	Sysdiagnose: essa op\'e7\'e3o gera um arquivo de diagn\'f3stico de sistema \uc0\u8232 com informa\'e7\'f5es omitidas.\
+	
+\f1 \uc0\u9642 
+\f0 	Mobile Device logs: essa op\'e7\'e3o coleta arquivos sincronizados a partir \uc0\u8232 de um dispositivo iOS.\
+	
+\f1 \uc0\u9642 
+\f0 	Time\'a0Machine information:\'a0use essa op\'e7\'e3o se voc\'ea estiver solucionando \kerning1\expnd-1\expndtw-5
+problemas relacionados ao Time\'a0Machine.\'a0Isso criar\'e1 uma pasta chamada "Time_Machine" \expnd0\expndtw0\kerning0
+que cont\'e9m mais detalhes sobre o Time\'a0Machine, como o arquivo de prefer\'eancia com.apple.Time Machine.plist.\
+Estas op\'e7\'f5es coletam registros enquanto voc\'ea reproduz o problema:\
+	
+\f1 \uc0\u9642 
+\f0 	Capture a packet trace: os rastreamentos de pacote s\'e3o \'fateis para escalonamentos sobre problemas de rede/internet, incluindo navega\'e7\'e3o na web \uc0\u8232 e compartilhamento de arquivos.\
+	
+\f1 \uc0\u9702 
+\f0 	Clique em Start para come\'e7ar o rastreamento e reproduzir o problema. Quando voc\'ea terminar, clique em Stop. Clique novamente em Start para capturar outro \kerning1\expnd-1\expndtw-3
+rastreamento, se precisar capturar rastreamentos de pacotes para mais de um problema.\expnd0\expndtw0\kerning0
+\
+	
+\f1 \uc0\u9702 
+\f0 	Ao fazer os rastreamentos de pacotes, feche todos os aplicativos de rede que n\'e3o s\'e3o necess\'e1rios para reproduzir o problema e reduzir o tr\'e1fego da rede. Fazer \kerning1\expnd-1\expndtw-3
+isso ajuda a reduzir o tamanho do arquivo de rastreamento de pacotes. Os rastreamentos de pacotes menores s\'e3o muito mais f\'e1ceis de analisar.\expnd0\expndtw0\kerning0
+\
+	
+\f1 \uc0\u9642 
+\f0 	Filesystem usage logging: use essa op\'e7\'e3o quando desejar registrar todas \kerning1\expnd-1\expndtw-3
+as atividades dos sistemas de arquivos, incluindo os arquivos acessados pelos processos \expnd0\expndtw0\kerning0
+em segundo plano.\'a0O volume de atividade de disco registrada afetar\'e1 diretamente o tamanho do arquivo fs_usage.txt\'a0na imagem criada pelo\'a0Capture\'a0Data, que n\'e3o deve \kerning1\expnd-1\expndtw-3
+\uc0\u8232 ser mantido ativo por um longo per\'edodo de tempo.\expnd0\expndtw0\kerning0
+\
+	
+\f1 \uc0\u9642 
+\f0 	Detailed printer logging: use essa op\'e7\'e3o ao solucionar um problema de impress\'e3o ou envio de fax (n\'e3o \'e9 necess\'e1rio ao solucionar problemas de recebimento \kerning1\expnd0\expndtw2
+de fax). Ao ser solicitado a iniciar o detailed printer logging: clique em Start, tente \kerning1\expnd-1\expndtw-3
+imprimir um documento para reproduzir o comportamento a ser solucionado e clique \uc0\u8232 \expnd0\expndtw0\kerning0
+em Stop ap\'f3s a conclus\'e3o da impress\'e3o do documento ou interrup\'e7\'e3o.\
+\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\b \cf2 O que ser\'e1 coletado:\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+
+\b0 \cf2 \CocoaLigature0 Esta \'e9 uma lista de ajustes e registros coletados para cada uma das diferentes op\'e7\'f5es. \kerning1\expnd-1\expndtw-3
+O resultado dos aplicativos ser\'e1 salvo em /var/tmp. Se o resultado for maior que 9,5\'a0GB, ele ser\'e1 segmentado em diversas partes e todos os segmentos ser\'e3o colocados em uma pasta em /var/tmp.\expnd0\expndtw0\kerning0
+\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+
+\b \cf2 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+\cf2 \CocoaLigature1 Informa\'e7\'f5es padr\'e3o:\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\b0 \cf2 \CocoaLigature0 /var/log\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+\cf2 /Biblioteca/Logs\
+/Biblioteca/Logs do usu\'e1rio conectado\
+lista de diret\'f3rios de /Biblioteca/Quicktime\
+lista de diret\'f3rios do usu\'e1rio conectado em /Biblioteca/Quicktime\
+/Biblioteca/Preferences/com.apple.sharing.firewall.plist\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+\cf2 \CocoaLigature1 comando\CocoaLigature0  /usr/sbin/sysctl -a: usado para capturar o estado de kernel \
+/Biblioteca/Logs/Software Update.log\
+/Aplicativos/Safari/Contents/R/En/Plugins.html\
+comando kextstat: usado para coletar extens\'f5es carregadas\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+\cf2 \kerning1\expnd-1\expndtw-5
+comando drutil: usado para obter informa\'e7\'f5es sobre o drive \'f3ptico, suporte a grava\'e7\'f5es	\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+comando top: usado para obter estat\'edsticas sobre os processos em execu\'e7\'e3o\
+comando ps: usado para obter uma lista de todos os processos em execu\'e7\'e3o\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+\cf2 \kerning1\expnd-1\expndtw-5
+comando mount: usado para obter uma lista de todos os sistemas de arquivos instalados	\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+comando netstat: usado para obter estat\'edsticas de rede e informa\'e7\'f5es de roteamento\
+S\'e3o coletados registros de servi\'e7o de diret\'f3rio e prefer\'eancias\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+\cf2 \kerning1\expnd0\expndtw2
+comando dscl: usado para obter informa\'e7\'f5es sobre usu\'e1rios e grupos. As senhas \uc0\u8232 n\'e3o s\'e3o vis\'edveis\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+comando id: usado para obter o ID do usu\'e1rio e do grupo para o usu\'e1rio conectado \uc0\u8232 no momento.\
+\'e9 obtida uma lista das fontes instaladas. Examinamos os seguintes locais:  /Rede/Biblioteca/Fonts, /Pasta do Sistema/Fonts, /Sistema/Biblioteca/Fonts, /Biblioteca/Fonts e a /Biblioteca/Fonts do usu\'e1rio conectado\
+/Biblioteca/Logs\
+ioreg \'e9 usado para obter informa\'e7\'f5es sobre o registro do I/O Kit para o computador \uc0\u8232 e dispositivos conectados.\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+\cf2 \kerning1\expnd0\expndtw2
+obtemos as configura\'e7\'f5es do economizador de energia e de bateria usando \expnd0\expndtw0\kerning0
+\uc0\u8232 o comando pmset \
+obtenha uma lista da configura\'e7\'e3o das unidades de disco internas e conectadas usando /usr/sbin/diskutil \
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+\cf2 \kerning1\expnd-1\expndtw-3
+obtenha o resultado das informa\'e7\'f5es de parti\'e7\'e3o de GTP para a unidade de inicializa\'e7\'e3o\
+\expnd0\expndtw0\kerning0
+\'e9 obtido um relat\'f3rio de perfil do sistema\
+/Biblioteca/Preferences/loginwindow.plist do usu\'e1rio conectado\
+/etc/hostconfig\
+/Biblioteca/Logs/Sync/ do usu\'e1rio conectado\
+obt\'e9m os resultados do lsof \
+obt\'e9m as informa\'e7\'f5es do launchd\
+/etc/hosts\
+/Biblioteca/Logs/ do usu\'e1rio conectado\
+/Biblioteca/Application Support/SyncServices/Local/syncservices.log do usu\'e1rio conectado\
+/Biblioteca/Application Support/AirPort/Configuration do usu\'e1rio conectado\
+/Biblioteca/CoreRAID\
+lista de diret\'f3rios ou /Volumes\
+/Biblioteca/Logs/DiagnosticReports\
+/sbin/ifconfig usado para indicar as informa\'e7\'f5es de interface de rede\
+c\'f3pia de /etc/resolv.conf\
+c\'f3pia de /etc/shells\
+obt\'e9m as informa\'e7\'f5es do pwpolicy\
+lista de diret\'f3rios de /Usu\'e1rios\
+no Lion e posterior, obt\'e9m os registros de sistema anteriores\
+obtenha /var/db/launchd.db/com.apple.launchd/ \CocoaLigature1 para\CocoaLigature0  identificar quais servi\'e7os \uc0\u8232 de compartilhamento est\'e3o ativados\
+obtenha listas de diret\'f3rio de /etc/mach_init.d and /etc/mach_init_per_user.d\
+Coleta os conte\'fados de todas as prefer\'eancias de loginwindow\
+obt\'e9m os resultados de mdimport -L\
+obt\'e9m os resultados do comando powermetrics \
+obt\'e9m uma lista dos itens de in\'edcio de sess\'e3o\
+Prefer\'eancias do iTunes\
+rela\'e7\'e3o dos diret\'f3rios de iTunes Plug-ins\
+coleta MobileMeAccounts.plist\
+obt\'e9m resultados de "sharing -l"\
+obt\'e9m o status do FileVault e ativa informa\'e7\'f5es de usu\'e1rio\
+obt\'e9m a data e a hora definidas no sistema\
+coleta ~/Library/Application Support/com.malwarebytes.antimalware/log.txt\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\b \cf2 Informa\'e7\'f5es do Mail do macOS\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\b0 \cf2 S\'e3o obtidas informa\'e7\'f5es sobre vers\'e3o\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+\cf2 N\'famero total de contas configuradas				\
+Tipo de Conta					
+\b \
+
+\b0 Nome do servidor\
+se a conta estiver ativada\
+Nome de usu\'e1rio\
+Nome completo\
+Porta utilizada\
+M\'e9todo de autentica\'e7\'e3o\
+Servidor SMTP padr\'e3o\
+Endere\'e7os de e-mail para cada conta\
+Configura\'e7\'e3o Mover mensagens apagadas para o lixo\
+Incluir esta conta ao verificar a configura\'e7\'e3o do mail\
+Usar SSL ativado/desativado\
+Obt\'e9m conte\'fados de ~/Biblioteca/Containers/com.apple.mail/Data/Library/Logs/Mail/\
+\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+
+\i \cf2 Ajustes espec\'edficos de IMAP coletados:
+\i0 \
+Compacta as caixas de correio ao encerrar\
+Pol\'edtica de cache de mensagens	\
+Armazenar mensagens enviadas no servidor\
+Armazenar mensagens apagadas no servidor\
+Armazenar rascunhos no servidor\
+Armazenar mensagens indesejadas no servidor\
+										\
+
+\i Ajustes espec\'edficos de POP coletados:
+\i0 \
+Apagar mensagens quando removidas da caixa de entrada\
+Tamanho do aviso de mensagem grande\
+Intervalo de exclus\'e3o de mensagem atrasada\
+Apagar o e-mail no servidor ap\'f3s o download\
+Diret\'f3rio da conta\
+											\
+
+\i S\'e3o obtidos os seguintes Ajustes de Prefer\'eancias:
+\i0 		\
+N\'famero de regras\
+N\'famero de assinaturas\
+N\'famero de servidores LDAP\
+Busca e-mail automaticamente\
+Frequ\'eancia de busca em minutos\
+Som de novo e-mail\
+Fonte da lista de mensagens\
+Tamanho da fonte da lista de mensagens\
+Fonte da mensagem\
+Tamanho da fonte da mensagem			
+\b \
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+
+\b0 \cf2 Usar fonte de largura fixa em e-mails de texto simples\
+Fonte de largura fixa\
+Tamanho da fonte de largura fixa\
+Cor de texto citado\
+Cor de cita\'e7\'e3o n\'edvel um
+\b \
+
+\b0 Cor de cita\'e7\'e3o n\'edvel dois\
+Cor de cita\'e7\'e3o n\'edvel tr\'eas\
+Detalhe do cabe\'e7alho\
+Mostrar o status do Buddy como online\
+Destacar a conversa selecionada\
+Fazer download de anexos HTML\
+Usar chaves\
+Formato de mensagem padr\'e3o\
+Verificar ortografia conforme a digita\'e7\'e3o\
+Sempre colocar meu e-mail como Cc\
+Usar preenchimento de endere\'e7os\
+Mostrar todos os endere\'e7os ao enviar e-mails a um grupo\
+Usar o mesmo formato de resposta\
+Citar a mensagem original\
+Incluir o texto inteiro da mensagem original\
+Assinatura selecionada\
+Escolher assinatura ao escrever\
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\b \cf2 Logs from Previous System Folder\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\b0 \cf2 obt\'e9m os conte\'fados de pastas de registros da pasta Sistema Anterior, \uc0\u8232 .../private/var/log and .../Biblioteca/Logs\
+\pard\tx560\pardeftab720\partightenfactor0
+\cf2 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\b \cf2 Mobile Device logs\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\b0 \cf2 /Biblioteca/Logs/CrashReporter/MobileDevice\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+\cf2 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\b \cf2 Sysdiagnose\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\b0 \cf2 Para coletar um relat\'f3rio do sysdiagnose, digite: "man sysdiagnose" no Terminal para obter mais informa\'e7\'f5es\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+\cf2 \kerning1\expnd-1\expndtw-5
+Se o Mail for verificado, colete um registro simples do Mail por meio de "sysdiagnose Mail"\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\b \cf2 Time\'a0Machine\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\b0 \cf2 Para coletar um relat\'f3rio do tmdiagnose, digite: "man tmdiagnose" no Terminal para obter mais informa\'e7\'f5es
+\b \
+\pard\tx560\pardeftab720\partightenfactor0
+
+\b0 \cf2 /Biblioteca/Preferences/com.apple.TimeMachine.plist\
+/private/var/db/.TimeMachine.Results.plist\
+amostras do mds\
+amostras do Spotlight\
+amostras do backupd\
+/Biblioteca/Caches/com.apple.SystemMigration.plist\page \pard\tx560\pardeftab720\partightenfactor0
+
+\b \cf2 Capture a Packet Trace\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\b0 \cf2 faz um rastreamento de rede usando o comando /usr/sbin/tcpdump	 do Terminal\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+\cf2 \kerning1\expnd0\expndtw2
+Para o AirPort, ele obt\'e9m informa\'e7\'f5es sobre o canal e o driver, assim como \uc0\u8232 o rastreamento de rede
+\b \kerning1\expnd0\expndtw2
+\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+\cf2 Detailed printer logging\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\b0 \cf2 ativamos o registro CUPS debug2 e depois coletamos o registro cups. Ap\'f3s clicar \uc0\u8232 no bot\'e3o Stop, definimos o CUPS de volta ao n\'edvel de registro padr\'e3o\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+\cf2 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\b \cf2 Filesystem Usage logging\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\partightenfactor0
+
+\b0 \cf2 \kerning1\expnd-1\expndtw-3
+usa o comando fs_usage para coletar informa\'e7\'f5es sobre o uso do sistema de arquivos.\
+\pard\tx480\tx960\tx1440\tx1920\tx2400\tx2880\tx3360\tx3840\tx4320\tx4800\tx5280\tx5760\tx6240\tx6720\tx7200\tx7680\tx8160\tx8640\tx9120\tx9600\tx10080\tx10560\tx11040\tx11520\tx12000\tx12480\tx12960\tx13440\tx13920\tx14400\tx14880\tx15360\tx15840\tx16320\tx16800\tx17280\tx17760\tx18240\tx18720\tx19200\tx19680\tx20160\tx20640\tx21120\tx21600\tx22080\tx22560\tx23040\tx23520\tx24000\tx24480\tx24960\tx25440\tx25920\tx26400\tx26880\tx27360\tx27840\tx28320\tx28800\tx29280\tx29760\tx30240\tx30720\tx31200\tx31680\tx32160\tx32640\tx33120\tx33600\tx34080\tx34560\tx35040\tx35520\tx36000\tx36480\tx36960\tx37440\tx37920\tx38400\tx38880\tx39360\tx39840\tx40320\tx40800\tx41280\tx41760\tx42240\tx42720\tx43200\tx43680\tx44160\tx44640\tx45120\tx45600\tx46080\tx46560\tx47040\tx47520\tx48000\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\
+fs_usage -- informa sobre chamadas de sistema e falhas de p\'e1gina relacionadas \'e0 atividade do sistema de arquivos em tempo real\
+\pard\tx560\pardeftab720\partightenfactor0
+\cf2 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardeftab720\qr\partightenfactor0
+\cf2 \CocoaLigature1 Vers\'e3o do documento: 2.1}
